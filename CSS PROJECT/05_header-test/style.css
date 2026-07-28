@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+.container{
+
+     position: relative;
+    display: grid;
+    grid-template-areas: 'title title title about about  menu menu'
+    ;
+    grid-template-rows: 80px;
+    /* grid-template-columns: 1fr; */
+    /* min-height: 10vh; */
+background-color:aqua;
+ grid-auto-flow: row;
+}
+
+span{
+    background-color:hotpink ;
+    grid-area:title;
+}
+.box-2{
+background-color: black;
+color: white;
+grid-area: about;
+}
+.box-3{
+    background-color: brown;
+    color: aliceblue;
+    grid-area: menu;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+

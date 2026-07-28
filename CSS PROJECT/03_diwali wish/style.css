@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+}
+.hero-section{
+   min-height: 100vh;
+   /*  */
+   background-image: url(/images/orange-backdrop\ 1.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.hero-section p{
+     font-family: "Salsa", cursive;
+    font-size: 46px;
+    max-width: 600px;
+    
+}
+.audio-paragraph{
+    margin-left: 16rem;
+}
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color:#FBD8A4;
+     }
+
+     /* .line{ */
+        /* margin-left: 12rem; */
+    
+     /* } */
+     .audio-container {
+        display: flex;
+background-color:#FBD8A4;
+max-width: 500px;
+border-radius: 60px;
+align-items: center;
+justify-content: center;
+
+     }
+.jhumar{
+    max-width: 250px;
+    margin-bottom: -180px;
+}
+@media (max-width:800px){
+    .dipak2{
+        display: none;
+    }
+  .dipak1{
+    display: block;
+    margin-left: auto;
+  }
+  .jhumar{
+    margin-bottom: 0;
+  }
+  .audio-paragraph{
+    margin-left: 1rem;
+  }
+  .music-text{
+    display: none;
+  }
+  .string-icon{
+    display: none;
+  }
+}
+   .co-section{
+    min-height: 100vh;
+    background-color: #F99501;
+
+   }
+   .line{
+    margin-left: 10rem;
+
+   }
+  .lakshmimata{
+width: 1200px;
+margin: auto;
+margin-left: 2rem;
+margin-top: 1rem;
+/* margin-right: 2rem; */
+  }
+.co-section p{
+  font-family: "Style Script", cursive;
+  font-size: 60px;
+  margin-left: 7.2rem;
+  margin-bottom: -6rem;
+  margin-top: -0.1rem;
+
+}
+@media (max-width:800px){
+  .lakshmimata {
+    max-width: 450px;
+    /* margin-left: 2rem; */
+  }
+  .line{
+    max-width: 450px;
+    margin-left: 2.5rem;
+  }
+  .co-section p{
+    font-size: 46px;
+    margin-top: 5rem;
+    margin-right: 3rem;
+    margin-left: 2rem;
+  }
+}
+.card-section{
+  min-height: 100vh;
+  background-color: #F99501;
+}
+.line2{
+  margin-top: 6rem;
+  margin-left:10rem;
+  max-width: 900px;
+}
+.card{
+  max-width: 650px;
+  margin: 4rem;
+  margin-left: 10rem;
+  /* max-height: 650px; */
+}
+.littlegirl{
+  max-width: 310px;
+  max-height: 900px;
+  margin-left: -10rem;
+}
+@media (max-width:800px){
+  .line2{
+     width: 450px;
+    margin-left: 2.5rem;
+    margin-top: 10rem;
+  }
+  .card{
+    max-width: 250px;
+  }
+  .littlegirl{
+    max-width: 210px;
+  }
+}
+.line3{
+  margin-left: 10rem;
+}
+.end-image{
+  /* margin: 2rem; */
+  max-width: 1220px;
+  margin-left: 1.2rem;
+  margin-top: 1rem;
+}
+#happy{
+  font-size: 24px;
+    font-family: "Salsa", cursive;
+
+}
+#ending{
+  margin-top: 7rem;
+}
+#suraj{
+  display: flex;
+  font-size: 18px;
+  margin-top: 6rem;
+  margin-left: 65rem;
+  
+}
+@media (max-width:800px){
+  .end-image{
+    max-width: 490px;
+  /* margin-right: 3rem; */
+
+  }
+  .line3{
+    max-width: 400px;
+    margin-left: 5rem;
+  }
+  #suraj{
+margin-left: 15rem;
+  }
+}

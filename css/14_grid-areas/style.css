@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: lightblue;
+  min-height: 60vh;
+  display: grid;
+  grid-template-areas:'banglore banglore delhi pune'
+                       'banglore banglore delhi pune'
+                       'mumbai mumbai mumbai pune';
+   grid-auto-rows: 120px;
+   grid-auto-columns:125px;                   
+}
+
+.box {
+  color: white;
+  font-size: 4rem;
+  padding: 1rem;
+}
+
+.box-1 {
+  background-color: green;
+  grid-row: banglore;
+  grid-column: banglore;
+}
+
+.box-2 {
+  background-color: blueviolet;
+  grid-row: delhi;
+}
+
+.box-3 {
+  background-color: blue;
+  grid-area:pune;
+}
+
+.box-4 {
+  background-color: brown;
+  grid-area:mumbai;
+}
+
+.box-5 {
+  background-color: coral;
+ 
+}
+
+.box-6 {
+  background-color: darkblue;
+}
+
+.box-7 {
+  background-color: darkred;
+}
+
+.box-8 {
+  background-color: darkslategray;
+}
+
+.box-9 {
+  background-color: gray;
+}
+
+.box-10 {
+  background-color: navy;
+}

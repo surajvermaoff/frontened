@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+   font-family: "Lexend Deca", sans-serif;
+   
+
+  
+   
+}
+
+section{
+    
+    color: white;
+     border-radius: 20px 20px 20px 20px;
+    display: flex;
+   /* min-width: 125px; */
+   /* min-height: 520px; */
+   max-width: 910px;
+ margin: auto;
+ /* justify-content: center; */
+   
+   /* overflow: hidden; */
+   /* border-radius: 20px 20px 20px 20px; */
+
+
+   
+   
+  
+}
+section{
+    padding: 3rem;
+
+}
+P{
+    opacity: 0.7;
+    line-height: 1.5;
+    
+   
+
+}
+SECTION A{
+    color: inherit;
+}
+
+.sedan{
+   background-color:#E28525;
+padding: 2.5rem;
+    border-radius: 8px 0PX 0PX 8px;
+    width:100%;
+}
+.suv{
+    background-color: #016972;
+padding:2.5rem;
+width:100%;
+}
+.luxury{
+    background-color:#00403F;
+padding:2.5rem;
+     border-radius: 0px 8PX 8PX 0px;
+     width:100%;
+
+}
+section H2{
+    text-transform: uppercase;
+   font-family: "Big Shoulders", sans-serif;
+   font-size: 2.2rem;
+}
+a{
+
+    text-decoration: none;
+    border: solid white 2px;
+    border-radius: 2.5rem;
+    display: inline-block;
+   padding: 1rem 1.5rem;
+   margin-top: 1.5rem;
+   margin-bottom: 1rem;
+ 
+   
+}
+@media (max-width:500px){
+    section{
+        flex-direction: column;
+        /* min-width: 125px; */
+   /* min-height: 520px; */
+   align-items: center;
+   margin: auto;
+    }
+    .sedan{
+border-radius: 8px 8PX 0PX 0px;
+    }
+    .luxury{
+        border-radius: 0px 0PX 8PX 8px;
+    }
+    .sedan a{
+          color: #E28525;
+        background-color: white;
+        /* border-color: black; */
+    }
+    .suv a{
+         color:#016972;
+        background-color: white;
+    }
+    .luxury a{
+         color:#00403F;
+        background-color: white;
+    }
+    
+    
+}

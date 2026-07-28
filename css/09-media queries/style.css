@@ -1,0 +1,38 @@
+
+
+div{
+    max-width: 400px;
+    min-height: 400px;
+    background-color: blueviolet;
+    border: solid red 16px;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust:exact;
+}
+/* @media ( 500px<=width<=700px)   { 
+    div{
+        border: solid hotpink 16px;
+        background-color: blue;
+
+    }
+}  */
+/* @media (min-width:700px )   { */
+    /* div{ */
+        /* border: solid hotpink 16px;
+        background-color: blue;
+
+    }
+}  */
+/* @media (min-height:700px )   {
+    div{
+        border: solid hotpink 16px;
+        background-color: blue;
+
+    }
+} */
+ @media print and (orientation: portrait )   {
+    div{
+        border: solid hotpink 16px;
+        background-color: blue;
+
+    } 
+}

@@ -1,0 +1,30 @@
+ #html {
+    background-color: brown;
+ }                             
+                              
+                              
+.html{
+    background-color: chartreuse;
+}
+li {
+    font-weight: 700;
+    background-color: green;
+}
+li {
+    font-weight: 400;
+    background-color: orange !important;
+}
+li {
+    font-weight: 400;
+    background-color: yellowgreen;
+}
+li {
+    font-weight: 400;
+    background-color: magenta;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    font-family: inherit;
+}

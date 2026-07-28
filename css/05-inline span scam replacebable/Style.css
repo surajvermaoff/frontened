@@ -1,0 +1,38 @@
+span{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 200px;
+    background-color: aquamarine;
+    border: 10px;
+    padding: 30px;
+    margin: 10px;
+}
+.nitish{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 200px;
+    background-color: blueviolet;
+    border: 5px;
+    padding: 3px;
+    margin: 5px;
+    outline: 2px;
+    color:yellowgreen;
+    }
+    body{
+        margin: 0;
+    }
+    img{
+        background-color: aquamarine;
+        width: 200px;
+    height: auto;
+    }
+    video{
+        max-width: 50%;
+        max-height: 80%;
+    }
+    iframe{
+        max-width: 60%;
+        max-height: 40%;
+    }
+    
+    

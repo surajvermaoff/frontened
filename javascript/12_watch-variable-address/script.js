@@ -1,0 +1,9 @@
+const firstName= 'suraj'
+const lastName= 'verma'
+const myName = 'suraj'
+const myAge = 20
+const doIwork = false
+const doIeat= true
+const hkcf = undefined
+const myNull = null
+const doIearn = false

@@ -1,0 +1,41 @@
+body{
+    overflow-y: scroll;
+}
+header{
+    background-color: aquamarine;
+    position: sticky;
+    top: 0px;
+}
+
+
+DIV{
+    position: relative;
+    background-color: chartreuse;
+    left: 20PX;
+    }
+    ul{
+  position: relative;
+  background-color: aquamarine;
+  top: 50px;
+  bottom: 50px;
+  left: 20px;
+ right: 20px;
+ overflow-y: scroll;
+    }
+.CSS-ELEMENT{
+background-color: darkgoldenrod;
+position: absolute;
+top: 100px;
+}
+.java-element{
+   position: fixed;
+   background-color: blueviolet;
+   bottom: 100px;
+}
+.html-element{
+    background-color: rgb(189, 107, 145);
+    position:sticky;
+   bottom: 80px;
+   top: 100px;
+  
+}

@@ -1,0 +1,49 @@
+li{
+    font-size: 40px;
+} 
+ 
+ .html{
+    color: #f16a30;
+}
+.css{
+    color: hotpink;
+}
+.tal{
+    color: blueviolet;
+}
+.java{
+    color: blue;
+}
+
+/* {
+    font-size: 44px;
+} 
+#css{
+    font-size: 40px;
+}
+#tal
+{
+    font-size: 40px;
+}
+#java{
+    font-size: 40px;
+} */
+ [suraj ="xxx"]{
+    background-color: aqua;
+ }
+ [class]{
+    background-color: blueviolet;
+ }
+ #web p{
+    background-color: green;
+ }
+ h1:hover{
+    color: firebrick;
+ }
+ ul p:hover{
+    color: crimson;
+ }
+ [class]:hover{
+    color: black;
+ }
+

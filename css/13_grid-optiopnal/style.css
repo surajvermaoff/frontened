@@ -1,0 +1,49 @@
+.first{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns:100px;
+    /* grid-auto-flow: row dense;
+     */
+    grid-template-columns: repeat(4,100px);
+    min-height:60vh;
+    background-color: aqua;
+
+}
+span{
+    max-height: 100px;
+    font-size: 4rem;
+}
+
+
+.box-1{
+    
+    background-color: cornflowerblue;
+    grid-column-start: 3;
+}
+.box-2{
+    background-color: red;
+}
+.box-3{
+    background-color: rgb(115, 0, 255);
+}
+.box-4{
+    background-color: rgb(0, 255, 38);
+}
+.box-5{
+    background-color: rgb(255, 0, 76);
+}
+.box-6{
+    background-color: rgb(183, 255, 0);
+}
+.box-7{
+    background-color:chocolate;
+}
+.box-8{
+    background-color: rgb(230, 210, 202);
+}
+.box-9{
+    background-color:darkmagenta;
+}
+.box-10{
+    background-color: rosybrown;
+}

@@ -1,0 +1,30 @@
+.red{
+    max-width: 250PX;
+    min-height: 150px;
+    background-color: red;
+    position: relative;
+    z-index: 3;
+}
+.green{
+    max-width: 250px;
+    min-height: 150px;
+    background-color: green;
+    left: 2rem;
+    top: -7rem;
+    position: relative;
+    z-index: 2;
+}
+.blue{
+    max-width: 250px;
+    min-height: 150px;
+    background-color: blue;
+    left: 4rem;
+    top: -12rem;
+    position: relative;
+    z-index: 1;
+}
+div{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
